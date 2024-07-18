@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/120009688_325579128711709_1736249742330805861_n.png"/>
+    <title>Messenger</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head-left">
+                <img src="../img/120009688_325579128711709_1736249742330805861_n.png" alt="">
+            </div>
+            <div class="head-right">
+                <h1>
+                    Features
+                </h1>   
+                <h1>
+                    Desktop App
+                </h1>
+                <h1>
+                    Privacy & Safety
+                </h1>
+                <h1>
+                    For Developers 
+                </h1>   
+            </div>
+        </div>
+    </header>
+    <div class="boddy">
+        <div class="boddy-left">
+            <h1>
+                Hang out 
+            </h1>
+            <h1>
+                Anytime,
+            </h1>
+            <h1>
+                Anywhere
+            </h1>
+            <h4>
+                Messenger makes it easy and fun to stay close to your favorite people.
+            </h4>
+            <div class="input-div">
+                <input type="text" id="mail" placeholder="Email or phone number ">
+                <input type="password" id="pasw" placeholder="Password">  
+            </div>
+            <div class="but-a-div">
+                <button>
+                        Log in
+                </button>
+                <a href="https://www.youtube.com/watch?v=JZC4RHVdiWA">Forgotten your password?</a>
+            </div>
+            <div class="checkbox-div">
+                <input type="checkbox" name="" id="ch-box">
+                <p>Keep me signed in</p>
+            </div>
+            <div class="get-it-from">
+                <img src="img/images.jpg" alt="">
+                <img src="img/images.png" alt="">
+            </div>
+        </div>
+        <div class="boddy-right">
+            <img src="../img/120973513_338186077283942_8148888802958728934_n.png" alt="">
+        </div>
+    </div>
+    <div class="bottom">
+        <div style="display: flex;">
+            <div style="display: flex;">
+                <h5 style="color: black; ">
+                    © Meta 2024.
+                </h5>
+                <h5 style="padding-left: 10px;">
+                    The Apple and Google Play logos are trademarks of their respective owners.
+                </h5>
+            </div>
+            <div style="display: flex; gap: 60px; cursor: pointer;">
+                <h5>
+                    Privacy Policy
+                </h5>
+                <h5>   
+                    Cookie Policy
+                </h5>
+                <h5>  
+                    Terms
+                </h5>
+                <h5>
+                    English (US)
+                </h5>
+                <h5>
+                    From Meta Logo
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            if (window.scrollY > 0) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
+</html>
